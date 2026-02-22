@@ -1,6 +1,6 @@
 # SMS Spam Detection Web Application
 
-An Natural Language Processing (NLP) application designed to classify SMS messages as "ham" (legitimate) or "spam" (junk/fraudulent) with high precision. This project has been engineered into a full-stack AI web application, bridging the gap between model development and real-world deployment.
+A Natural Language Processing (NLP) application designed to classify SMS messages as "ham" (legitimate) or "spam" (junk/fraudulent) with high precision. This project has been engineered into a full-stack AI web application, bridging the gap between model development and real-world deployment.
 
 ## 🚀 The Deployment Challenge
 One of the key technical hurdles addressed in this project was ensuring **feature consistency** between training and deployment. By replacing non-deterministic hashing (like `one_hot`) with a saved **Tokenizer object**, the model maintains 100% accuracy across different Python environments.
